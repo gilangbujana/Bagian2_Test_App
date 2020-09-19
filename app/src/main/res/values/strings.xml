@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Bagian 2 Test App Novian Gilang Bujana</string>
+    <string name="nama_karyawan">Nama Karyawan</string>
+    <string name="posisi_karyawan">Posisi Karyawan</string>
+    <string name="detail">Detail</string>
+    <string name="hapus">Hapus</string>
+    <string name="daftar_alamat">Daftar Alamat</string>
+    <string name="nama">Nama</string>
+    <string name="posisi_jabatan">Posisi/Jabatan</string>
+    <string name="telepon">Telepon</string>
+    <string name="email">Email</string>
+    <string name="join_date">Join Date</string>
+    <string name="alamat_rumah">Alamat Rumah</string>
+    <string name="tambah">Tambah</string>
+    <string name="ubah">Ubah</string>
+    <string name="lihat_peta">Lihat Peta</string>
+    <string name="simpan">simpan</string>
+</resources>

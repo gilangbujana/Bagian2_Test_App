@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:paddingHorizontal="32dp"
+    android:orientation="vertical"
+    tools:context=".AddOrEditKaryawan">
+
+
+    <EditText
+        android:id="@+id/etNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nama"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etPosisi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/posisi_jabatan"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etTelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/telepon"
+        android:layout_marginBottom="16dp"
+        android:inputType="phone"/>
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etJoin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/join_date"
+        android:inputType="date"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etAlamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/alamat_rumah"
+        android:inputType="textLongMessage"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnSimpan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/simpan"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"/>
+
+</LinearLayout>

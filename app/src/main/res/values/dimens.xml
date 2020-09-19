@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="nama_karyawan">25sp</dimen>
+    <dimen name="posisi_karyawan">20sp</dimen>
+    <dimen name="detail_karyawan">18sp</dimen>
+</resources>

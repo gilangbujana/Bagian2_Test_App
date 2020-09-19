@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    app:layout_behavior="com.google.android.material.BottomSheet">
+
+    <TextView
+        android:id="@+id/tvNamaKaryawan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nama_karyawan"
+        android:textColor="@color/black"
+        android:textSize="@dimen/nama_karyawan"/>
+
+    <TextView
+        android:id="@+id/tvPosisiKaryawan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/posisi_karyawan"
+        android:textColor="@color/black"
+        android:textSize="@dimen/posisi_karyawan"/>
+
+    <TextView
+        android:id="@+id/tvTelpKaryawan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:text="@string/telepon"
+        android:textColor="@color/black"
+        android:textSize="@dimen/detail_karyawan"/>
+
+    <TextView
+        android:id="@+id/tvEmailKaryawan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:text="@string/email"
+        android:textColor="@color/black"
+        android:textSize="@dimen/detail_karyawan"/>
+
+    <TextView
+        android:id="@+id/tvJoinKaryawan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:text="@string/join_date"
+        android:textColor="@color/black"
+        android:textSize="@dimen/detail_karyawan"/>
+
+    <TextView
+        android:id="@+id/tvAlamatKaryawan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:text="@string/alamat_rumah"
+        android:textColor="@color/black"
+        android:layout_marginBottom="8dp"
+        android:textSize="@dimen/detail_karyawan"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/tbUbah"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/ubah"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tbLihatPeta"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/lihat_peta"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
